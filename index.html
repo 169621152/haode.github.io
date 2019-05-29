@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title title="赖翔个人简历，web前端工程师">赖翔个人简历</title>
     <link rel="stylesheet" href="css/buttons.css">
@@ -11,6 +11,8 @@
     <link rel="icon" type="image/x-icon" href="images/logo.ico" />
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/shutter.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
 </head>
 
 <body>
@@ -36,64 +38,47 @@
             </div>
             <div id="page2" class="page">
                 <div class="content">
-                    <div class="pic" id="pic">
-                        <span class="prev"><img src="images/arrow1.png" alt="arrow" /></span>
-                        <span class="next"><img src="images/arrow2.png" alt="arrow" /></span>
-                        <ul>
-                            <li class="pic1">
-                                <div class="skill">
-                                    <h3 class="">Ajax/json</h3>
-                                    <p>·了解并能使用Ajax进行同步异步数据传输，能调用真实接口</p>
-                                    <p>·能对接收到的json数据进行转换</p>
-                                </div>
-                            </li>
-                            <li class="pic2">
-                                <div class="skill">
-                                    <h3 class="">jQuery/React</h3>
-                                    <p>·熟悉使用jq进行Dom操作，并能制作各种常见特效与动画</p>
-                                    <p>·React由于使用时间不长，所以还是不太熟练，还在学习阶段</p>
-                                </div>
-                            </li>
-                            <li class="pic4">
-                                <div class="skill">
-                                    <h3 class="">HTML5+CSS3</h3>
-                                    <p>·熟练使用HTML5语义化标签、了解新标签的特性</p>
-                                    <p>·熟悉使用CSS3各种动画效果的制作,熟练运用到项目当中</p>
-                                    <p>·熟悉各种div+css网页布局，能快速还原设计稿</p>
-                                </div>
-                            </li>
-                            <li class="pic5">
-                                <div class="skill">
-                                    <h3 class="">javascript</h3>
-                                    <p>·了解Dom,Bom,闭包,继承相关知识.</p>
-                                    <p>·熟悉es5,es6语法，能够在项目中实践运用</p>
-                                    <p>·熟悉使用各种js插件</p>
-                                </div>
-                            </li>
-
-                            <li class="pic6">
-                                <div class="skill">
-                                    <h3 class="">Bootstrap/animate</h3>
-                                    <p>·能使用bootstrap的栅格系统制作响应式页面</p>
-                                    <p>·熟练使用animate的各种动画并运用到实践项目</p>
-                                </div>
-                            </li>
-                            <li class="pic7">
-                                <div class="skill">
-                                    <h3 class="">Ajax/json</h3>
-                                    <p>·了解并能使用Ajax进行同步异步数据传输，能调用真实接口</p>
-                                    <p>·能对接收到的json数据进行转换</p>
-                                </div>
-                            </li>
-                            <li class="pic3">
-                                <div class="skill">
-                                    <h3 class="">jQuery/React</h3>
-                                    <p>·熟悉使用jq进行Dom操作，并能制作各种常见特效与动画</p>
-                                    <p>·React由于使用时间不长，所以还是不太熟练，还在学习阶段</p>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="swiper-container" style="margin:50px 0  80px;">
+                        <div class="swiper-wrapper" >
+                            <div class="swiper-slide" style="height:400px;background:teal;">
+                                <h3 class="">HTML5+CSS3</h3>
+                                <p>·熟练使用HTML5语义化标签、了解新标签的特性</p>
+                                <p>·熟悉使用CSS3各种动画效果的制作,熟练运用到项目当中</p>
+                                <p>·熟悉各种div+css网页布局，能快速还原设计稿</p>
+                            </div>
+                            <div class="swiper-slide" style="height:400px;background:purple;">
+                                <h3 class="">Javascript</h3>
+                                <p>·了解Dom,Bom,闭包,继承相关知识.</p>
+                                <p>·熟悉es5,es6语法，能够在项目中实践运用</p>
+                                <p>·熟悉使用各种js插件</p>
+                            </div>
+                            <div class="swiper-slide" style="height:400px;background:palegoldenrod;">
+                                <h3 class="">Bootstrap/animate</h3>
+                                <p>·能使用bootstrap的栅格系统制作响应式页面</p>
+                                <p>·熟练使用animate的各种动画并运用到实践项目</p>
+                            </div>
+                            <div class="swiper-slide" style="height:400px;background:peru;">
+                                <h3 class="">Ajax/json</h3>
+                                <p>·了解并能使用Ajax进行同步异步数据传输，能调用真实接口</p>
+                                <p>·能对接收到的json数据进行转换</p>
+                            </div>
+                            <div class="swiper-slide" style="height:400px;background:green;">
+                                <h3 class="">jQuery/React</h3>
+                                <p>·熟悉使用jq进行Dom操作，并能制作各种常见特效与动画</p>
+                                <p>·React由于使用时间不长，所以还是不太熟练，还在学习阶段</p>
+                            </div>
+                            <div class="swiper-slide" style="height:400px;background:rosybrown">
+                                <h3 class="">Ajax/json</h3>
+                                <p>·了解并能使用Ajax进行同步异步数据传输，能调用真实接口</p>
+                                <p>·能对接收到的json数据进行转换</p>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
+
+
                     <h2 id="gotonext" class="button button-glow button-rounded button-royal">
                         E E E
                     </h2>
@@ -106,38 +91,7 @@
                 </div>
             </div>
             <div id="page3" class="page">
-                <div id="imageFlow">
-                    <div class="top">
-                        了解各种JS插件的使用
-                    </div>
-                    <div class="bank">
-                        <a rel="images/5.jpg" title="First" href="#">
-                            One</a>
-                        <a rel="images/1.jpg" title="Second" href="#">
-                            Two</a>
-                        <a rel="images/5.jpg" title="Third" href="#">
-                            Three</a>
-                        <a rel="images/1.jpg" title="Fourth" href="#">
-                            Four</a>
-                        <a rel="images/5.jpg" title="Fifth" href="#">
-                            Five</a>
-                        <a rel="images/1.jpg" title="Sixth" href="#">
-                            Six</a>
-                        <a rel="images/5.jpg" title="Seventh" href="#">
-                            Seven</a>
-                    </div>
-                    <div class="text">
-                        <div class="title">
-                            Loading</div>
-                        <div class="legend">
-                            Please wait...</div>
-                    </div>
-                    <div class="scrollbar">
-                        <img class="track" src="images/track.jpg" alt="">
-                        <img class="arrow-left" src="images/sign_out.png" alt="">
-                        <img class="arrow-right" src="images/sign_in.png" alt="">
-                        <img class="bar" src="images/bar.jpg" alt=""> </div>
-                </div>
+                
             </div>
             <div id="page4" class="page"></div>
             <div id="page5" class="page">
@@ -152,7 +106,7 @@
                                     <span></span>
                                 </i>
                                 <p>学历/大专</p>
-                                
+
                             </div>
                             <div class="box2">
                                 <i><img src="images/坐标.png" alt="">
@@ -160,7 +114,7 @@
                                     <span></span>
                                 </i>
                                 <p>坐标/广州</p>
-                                
+
                             </div>
                             <div class="box3">
                                 <i><img src="images/状态.png" alt="">
@@ -168,12 +122,13 @@
                                     <span></span>
                                 </i>
                                 <p>状态/求职</p>
-                               
+
                             </div>
                         </div>
                         <div class="list">
                             <div class="characters" style="margin:0 auto 30px;width:100%;text-align:center;">
-                                <h3 class="s button button-glow button-rounded button-caution" style="margin:15px 15px;">代码</h3>
+                                <h3 class="s button button-glow button-rounded button-caution"
+                                    style="margin:10px 15px;">代码</h3>
                                 <h3 class="s button button-glow button-rounded button-royal">梦想</h3>
                             </div>
                             <p>热爱前端行业，享受从无到有的过程</p>
@@ -203,7 +158,7 @@
             <span class="left">
                 <img src="images/head.png">
                 <button id="messageBtn" class="button button-3d"
-                    style="border-radius: 3px;padding:0 2%;margin-left:2%;font-size:14px;">
+                    style="margin:0 8px ;font-size:14px;">
                     我要留言
                 </button>
             </span>
@@ -224,16 +179,16 @@
 
 <script type="text/javascript" src="js/move3.js"></script>
 <script>
-    let btns =document.getElementsByClassName("s");
-    
-
-    for(let i=0;i<2;i++){
-        btns[i].onclick = function(){
+    let btns = document.getElementsByClassName("s");
+    for (let i = 0; i < 2; i++) {
+        btns[i].style.padding = "0 44px";
+        btns[i].onclick = function () {
             let span = document.createElement("span");
-            span.setAttribute("class","pend");
+            span.setAttribute("class", "pend");
             span.innerHTML = "+1";
             btns[i].appendChild(span);
         }
     }
 </script>
+
 </html>
